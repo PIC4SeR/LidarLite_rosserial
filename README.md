@@ -18,7 +18,7 @@ You have to install rosserial_arduino, follow this procedure:
 You need also to install Arduino IDE and the LIDARV3 library if you want to modify the script.
 
 ## User Guide
-You will find 2 folders:
+You will find two folders:
 1) "GetDistanceI2C_changeAddr.ino" is the Arduino script that you have to upload on your arduino micro
 2) LIDARLite_Arduino_library-master is the arduino library of the LidarLite v3 that you have to install in order to modify the arduino script
 
@@ -27,8 +27,6 @@ If you want to modify the script download Arduino IDE or similar.
 If you want just use the sensors, upload the script into your Arduino Micro and by terminale type:
 
 'sudo chmod 777 /dev/<YOURDEV>'
+
+
 'rosrun rosserial_python serial_node.py /dev/<YOURDEV> -baud:=115200'
-
-
-
-More detailed information about markdown style for README.md file [HERE](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
