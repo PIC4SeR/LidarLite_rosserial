@@ -26,7 +26,7 @@ If you want to modify the script download Arduino IDE or similar.
 
 If you want just use the sensors, upload the script into your Arduino Micro and by terminale type:
 
-'sudo chmod 777 /dev/<YOURDEV>'
+'sudo chmod 777 /dev/YOURDEV'
 
 
-'rosrun rosserial_python serial_node.py /dev/<YOURDEV> -baud:=115200'
+'rosrun rosserial_python serial_node.py /dev/YOURDEV -baud:=115200'
